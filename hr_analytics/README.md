@@ -1,7 +1,7 @@
 # Power BI HR Analytics Dashboard
 
 <p align="center">
-  <img src="./hr_analytics_dashboard.png" alt="HR Analytics Dashboard">
+  <img src="./hr_analytics_dashboard.png" alt="HR Analytics Dashboard" style="box-shadow: 0px 0px 10px #888888;">
 </p>
 
 The HR Analytics Dashboard is a Power BI interactive tool designed to provide comprehensive insights into various key metrics related to human resources within an organization. The purpose of this dashboard is to aid in strategic decision-making and to improve understanding of workforce trends and patterns.

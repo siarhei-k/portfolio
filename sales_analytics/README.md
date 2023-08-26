@@ -1,7 +1,7 @@
 # Excel Sales Analytics Dashboard
 
 <p align="center">
-  <img src="./sales_analytics_dashboard.png" alt="HR Analytics Dashboard">
+  <img src="./sales_analytics_dashboard.png" alt="HR Analytics Dashboard" >
 </p>
 
 An intuitive Excel dashboard that offers a dynamic interface to transform raw data into visually appealing and actionable insights.

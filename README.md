@@ -6,7 +6,7 @@
 
 <br>
 <p align="center">
-  <img src="./hr_analytics/hr_analytics_dashboard.png" alt="HR Analytics Dashboard">
+  <img src="./hr_analytics/hr_analytics_dashboard.png" alt="HR Analytics Dashboard" style="box-shadow: 0px 0px 10px #888888;">
 </p>
 
 [HR Analytics Dashboard](./hr_analytics/) provides a holistic and user-friendly view of critical HR metrics, aiding in data-driven decision-making and strategic planning.
