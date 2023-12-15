@@ -3,8 +3,11 @@
       - [HR Analytics Dashboard](#hr-analytics-dashboard)
    2. [Excel](#excel)
       - [Sales Analytics Dashboard](#sales-analytics-dashboard)
-   3. [Data Modeling](#data-modeling)
-      - [Sales Analytics Dashboard](#sales-analytics-dashboard)
+   3. [Modeling](#modeling)
+      - [Data Modeling](#data-modeling)
+        - [Recruitment Agency Data Model](#recruitment-agency-data-model)
+      - [Processes Modeling](#processes-modeling)
+        - [Deal No Deal BPMN Diagram](#deal-no-deal-bpmn-diagram)
 
 # Projects
 
@@ -30,9 +33,11 @@
 
 An intuitive Excel [Sales Analytics Dashboard](./sales_analytics/) that transforms raw data into visually compelling, actionable insights with dynamic filters.
 
-## Data Modeling
+## Modeling
 
-### Recruitment Agency Data Model
+### Data Modeling
+
+#### Recruitment Agency Data Model
 
 <br>
 <p align="center">
@@ -40,3 +45,14 @@ An intuitive Excel [Sales Analytics Dashboard](./sales_analytics/) that transfor
 </p>
 
 The [Recruitment Agency Data Model](./recruitment_agency/) visualizes the complex relationships between businesses, HR personnel, and candidates, streamlining the recruitment process through a structured database design. It facilitates efficient candidate tracking, interview scheduling, and feedback management.
+
+### Processes Modeling
+
+#### Deal No Deal BPMN Diagram
+
+<br>
+<p align="center">
+  <img src="./deal_nodeal/DealNoDeal.drawio.png" alt="Deal No Deal BPMN Game Flow Diagram">
+</p>
+
+[Deal or No Deal BPMN Game Process Flow](./deal_nodeal/) outlines the player's journey from qualification to prize collection, providing a structured flow for game progression and decision-making points.
