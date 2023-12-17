@@ -1,8 +1,12 @@
 # Table of Contents
-   1. [Power BI](#power-bi)
-      - [HR Analytics Dashboard](#hr-analytics-dashboard)
-   2. [Excel](#excel)
-      - [Sales Analytics Dashboard](#sales-analytics-dashboard)
+   1. [Business Intelligence](#business-intelligence)
+      - [Power BI](#power-bi)
+        - [HR Analytics Dashboard](#hr-analytics-dashboard)
+      - [Excel](#excel)
+        - [Sales Analytics Dashboard](#sales-analytics-dashboard)
+   2. [Data Analysis](#data-analysis)
+      - [Python](#python)
+        - [Research of the video game market](#research-of-the-video-game-market)
    3. [Modeling](#modeling)
       - [Data Modeling](#data-modeling)
         - [Recruitment Agency Data Model](#recruitment-agency-data-model)
@@ -11,9 +15,11 @@
 
 # Projects
 
-## Power BI
+## Business Intelligence
 
-### HR Analytics Dashboard
+### Power BI
+
+#### HR Analytics Dashboard
 
 <br>
 <p align="center">
@@ -22,9 +28,9 @@
 
 [HR Analytics Dashboard](./hr_analytics/) provides a holistic and user-friendly view of critical HR metrics, aiding in data-driven decision-making and strategic planning.
 
-## Excel
+### Excel
 
-### Sales Analytics Dashboard
+#### Sales Analytics Dashboard
 
 <br>
 <p align="center">
@@ -32,6 +38,18 @@
 </p>
 
 An intuitive Excel [Sales Analytics Dashboard](./sales_analytics/) that transforms raw data into visually compelling, actionable insights with dynamic filters.
+
+## Data Analysis
+
+### Python
+
+#### Research of the video game market
+
+<p align="center">
+  <img src="./game_industry/games_industry.png" alt="Sales Analytics Dashboard">
+</p>
+
+The [Games Industry Research Project](./game_industry/games_industry_research.ipynb) provides an in-depth analysis of the gaming sector, combining statistical data, industry trends, and demographic insights. This project aims to offer stakeholders a comprehensive view of the current gaming market, aiding in strategic decision-making and market positioning.
 
 ## Modeling
 
