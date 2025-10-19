@@ -1,76 +1,66 @@
-# Table of Contents
-   1. [Business Intelligence](#business-intelligence)
-      - [Power BI](#power-bi)
-        - [HR Analytics Dashboard](#hr-analytics-dashboard)
-      - [Excel](#excel)
-        - [Sales Analytics Dashboard](#sales-analytics-dashboard)
-   2. [Data Analysis](#data-analysis)
-      - [Python](#python)
-        - [Research of the video game market](#research-of-the-video-game-market)
-   3. [Modeling](#modeling)
-      - [Data Modeling](#data-modeling)
-        - [Recruitment Agency Data Model](#recruitment-agency-data-model)
-      - [Processes Modeling](#processes-modeling)
-        - [Deal No Deal BPMN Diagram](#deal-no-deal-bpmn-diagram)
+<div align="center">
+    <h3>Projects</h4>
+</div>
 
-# Projects
-
-## Business Intelligence
-
-### Power BI
-
-#### HR Analytics Dashboard
-
-<br>
-<p align="center">
-  <img src="./hr_analytics/hr_analytics_dashboard.png" alt="HR Analytics Dashboard" style="box-shadow: 0px 0px 10px #888888;">
-</p>
-
-[HR Analytics Dashboard](./hr_analytics/) provides a holistic and user-friendly view of critical HR metrics, aiding in data-driven decision-making and strategic planning.
-
-### Excel
-
-#### Sales Analytics Dashboard
-
-<br>
-<p align="center">
-  <img src="./sales_analytics/sales_analytics_dashboard.png" alt="Sales Analytics Dashboard">
-</p>
-
-An intuitive Excel [Sales Analytics Dashboard](./sales_analytics/) that transforms raw data into visually compelling, actionable insights with dynamic filters.
-
-## Data Analysis
-
-### Python
-
-#### Research of the video game market
-
-<p align="center">
-  <img src="./game_industry/games_industry.png" alt="Sales Analytics Dashboard">
-</p>
-
-The [Games Industry Research Project](./game_industry/games_industry_research.ipynb) provides an in-depth analysis of the gaming sector, combining statistical data, industry trends, and demographic insights. This project aims to offer stakeholders a comprehensive view of the current gaming market, aiding in strategic decision-making and market positioning.
-
-## Modeling
-
-### Data Modeling
-
-#### Recruitment Agency Data Model
-
-<br>
-<p align="center">
-  <img src="./recruitment_agency/recruitment_agency_model.png" alt="Sales Analytics Dashboard">
-</p>
-
-The [Recruitment Agency Data Model](./recruitment_agency/) visualizes the complex relationships between businesses, HR personnel, and candidates, streamlining the recruitment process through a structured database design. It facilitates efficient candidate tracking, interview scheduling, and feedback management.
-
-### Processes Modeling
-
-#### Deal No Deal BPMN Diagram
-
-<br>
-<p align="center">
-  <img src="./deal_nodeal/DealNoDeal.drawio.png" alt="Deal No Deal BPMN Game Flow Diagram">
-</p>
-
-[Deal or No Deal BPMN Game Process Flow](./deal_nodeal/) outlines the player's journey from qualification to prize collection, providing a structured flow for game progression and decision-making points.
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <a target="_blank" href="../../../portfolio/tree/main/car_reviews_llm/cars_review_analysis_llm.ipynb">
+          <div style="border:1px solid #ddd; border-radius:10px; padding:10px; width:300px; text-align:center;">
+            <img src="https://raw.githubusercontent.com/siarhei-k/portfolio/4de0e98f2ba0b4f09fa97242989ac987037640cc/car_reviews_llm/car_reviews_llm.jpg" alt="Cars Review LLM Analysis" width="300">
+            <p><b>Cars Review LLM Analysis POC</b><br>
+            <small>Hugging Face | LLM Analysis</small></p>
+          </div>
+        </a>
+      </td>
+      <td align="center">
+        <a target="_blank" href="../../../portfolio/tree/main/hr_analytics">
+          <div style="border:1px solid #ddd; border-radius:10px; padding:10px; width:300px; text-align:center;">
+            <img src="https://raw.githubusercontent.com/siarhei-k/portfolio/main/hr_analytics/hr_analytics_dashboard.png" alt="HR Analytics Dashboard" width="300">
+            <p><b>HR Analytics Dashboard</b><br>
+            <small>Power BI | Employee Insights</small></p>
+          </div>
+        </a>
+      </td>
+      <td align="center">
+        <a target="_blank" href="../../../portfolio/tree/main/sales_analytics/">
+          <div style="border:1px solid #ddd; border-radius:10px; padding:10px; width:300px; text-align:center;">
+            <img src="https://raw.githubusercontent.com/siarhei-k/portfolio/refs/heads/main/sales_analytics/sales_analytics_dashboard.png" alt="Sales Analytics Dashboard" width="300">
+            <p><b>Sales Analytics Dashboard</b><br>
+            <small>Excel | Business Insights</small></p>
+          </div>
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <a target="_blank" href="../../../portfolio/tree/main/game_industry/games_industry_research.ipynb">
+          <div style="border:1px solid #ddd; border-radius:10px; padding:10px; width:300px; text-align:center;">
+            <img src="https://raw.githubusercontent.com/siarhei-k/portfolio/refs/heads/main/game_industry/games_industry.png" alt="Games Industry Research" width="300">
+            <p><b>Games Industry Research Project</b><br>
+            <small>Pandas | Numpy | Scipy</small></p>
+          </div>
+        </a>
+      </td>
+      <td align="center">
+        <a target="_blank" href="../../../portfolio/tree/main/recruitment_agency">
+          <div style="border:1px solid #ddd; border-radius:10px; padding:10px; width:300px; text-align:center;">
+            <img src="https://raw.githubusercontent.com/siarhei-k/portfolio/refs/heads/main/recruitment_agency/recruitment_agency_model.png" alt="Recruitment Agency Data Model" width="300">
+            <p><b>Recruitment Agency Data Model</b><br>
+            <small>MySQL | ERD</small></p>
+          </div>
+        </a>
+      </td>
+      <td align="center">
+        <a target="_blank" href="../../../portfolio/tree/main/deal_nodeal/">
+          <div style="border:1px solid #ddd; border-radius:10px; padding:10px; width:300px; text-align:center;">
+            <img src="https://raw.githubusercontent.com/siarhei-k/portfolio/refs/heads/main/deal_nodeal/DealNoDeal.drawio.png" alt="Deal or No Deal BPMN Flow" width="300">
+            <p><b>Deal or No Deal BPMN Game Flow</b><br>
+            <small>BPMN | Process Modeling</small></p>
+          </div>
+        </a>
+      </td>
+    </tr>
+  </table>
+</div>
