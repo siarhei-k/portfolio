@@ -11,8 +11,24 @@ This repository defines the interface contracts and architectural logic for two 
 
 # Table of Contents
 
-```table-of-contents
-```
+- [Project Overview](#project-overview)
+- [Extending the YouTube Data API to support a "Favorites" feature](#extending-the-youtube-data-api-to-support-a-favorites-feature)
+  - [Logic Flow for "Favorites"](#logic-flow-for-favorites)
+  - [US1. List Playlists with Favorite Node](#us1-list-playlists-with-favorite-node)
+  - [US2. Create Playlist with Favorite Node](#us2-create-playlist-with-favorite-node)
+  - [US3. Update Playlist Favorite Node](#us3-update-playlist-favorite-node)
+  - [US4. Delete Playlist with Enhanced Authorization Errors](#us4-delete-playlist-with-enhanced-authorization-errors)
+  - [Updated API Documentation](#updated-api-documentation)
+    - [Playlists: list](#playlists-list)
+    - [Playlists: insert](#playlists-insert)
+    - [Playlists: update](#playlists-update)
+    - [Playlists: delete](#playlists-delete)
+    - [Error Table](#error-table)
+- [Creating a Hotel Booking API](#creating-a-hotel-booking-api)
+  - [Hotel API: Reservation State Machine](#hotel-api-reservation-state-machine)
+  - [US1: Searching for Available Rooms](#us1-searching-for-available-rooms)
+  - [US2: Booking a Room](#us2-booking-a-room)
+  - [US3: Cancel Reservation](#us3-cancel-reservation)
 
 # Extending the YouTube Data API to support a "Favorites" feature
 
