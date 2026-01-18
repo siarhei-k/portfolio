@@ -1,4 +1,6 @@
-![[api_design.png]]
+<p align="center">
+  <img src="./api_design.png" alt="API Design" style="box-shadow: 0px 0px 10px #888888;">
+</p>
 # Project Overview
 
 This repository defines the interface contracts and architectural logic for two core backend services.
