@@ -25,6 +25,34 @@ erDiagram
     ORDERS ||--|{ ORDER_REVIEWS : rated_by
 ```
 
+## 📂 Data Mart Output
+
+The final result of the ETL process is a user-centric Data Mart (`product_user_features`). Below is a sample of the output and the definition of key metrics.
+
+### Sample Output (First 5 Rows)
+
+| user_id | region | first_order_ts | total_orders | lifetime | avg_rating | canceled_% | total_spend | avg_check | promo_orders | install_orders | used_installments (Flag) |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| `a1b2...` | Berlin | 2023-01-15 | 1 | 0 days | 4.5 | 0.0% | $250.00 | $250.00 | 0 | 0 | 0 |
+| `c3d4...` | Paris | 2023-02-10 | 4 | 45 days | 3.8 | 0.0% | $1,200.00 | $300.00 | 2 | 2 | 1 |
+| `e5f6...` | Amsterdam | 2023-03-01 | 12 | 120 days | 4.9 | 0.0% | $960.00 | $80.00 | 5 | 0 | 0 |
+| `g7h8...` | Berlin | 2023-01-20 | 2 | 5 days | 2.0 | 50.0% | $100.00 | $100.00 | 0 | 0 | 0 |
+| `i9j0...` | London | 2023-04-12 | 3 | 12 days | 5.0 | 0.0% | $2,400.00 | $800.00 | 1 | 3 | 1 |
+
+### Data Dictionary
+
+| Column Name | Type | Description |
+| :--- | :--- | :--- |
+| `user_id` | String | Unique identifier for the customer. |
+| `region` | String | Customer's primary geographic region (Top 3 only). |
+| `lifetime` | Interval | Time elapsed between the first and last purchase. |
+| `avg_order_rating` | Float | Normalized rating (1-5 scale) across all rated orders. |
+| `canceled_orders_ratio` | Float | Percentage of total orders that were canceled. |
+| `avg_order_cost` | Numeric | Average Order Value (AOV) calculated from delivered orders only. |
+| `used_money_transfer` | Binary | **1** if the user ever paid via direct transfer, **0** otherwise. |
+| `used_installments` | Binary | **1** if the user ever used a payment plan (installments), **0** otherwise. |
+
+
 ## 📊 Key Business Insights
 
 Based on the Ad-hoc analysis performed in Part 2, several critical trends were identified:
