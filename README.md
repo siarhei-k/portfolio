@@ -87,3 +87,7 @@
     </tr>
   </table>
 </div>
+
+### Other Projects
+
+- [Automotive Warning Assistant with RAG](../../../portfolio/tree/main/rag_for_tech_doc)
