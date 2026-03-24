@@ -22,20 +22,14 @@ The notebook follows this pipeline:
 6. Pass the retrieved context and question into a chat model to generate a short answer.
 
 ```mermaid
-flowchart LR
-    A["MG ZS HTML Manual"] --> B["UnstructuredHTMLLoader"]
-    B --> C["Raw LangChain Documents"]
-    C --> D["RecursiveCharacterTextSplitter"]
-    D --> E["Chunked Manual Sections"]
-    E --> F["Embedding Model via LM Studio"]
-    F --> G["Chroma Vector Store"]
-    H["Driver Question"] --> I["Retriever"]
-    G --> I
-    I --> J["Top-k Relevant Chunks"]
-    J --> K["Prompt Template"]
-    H --> K
-    K --> L["Chat Model via LM Studio"]
-    L --> M["Grounded Warning Explanation"]
+flowchart TD
+    A["HTML Manual"] --> B["Load + Split"]
+    B --> C["Embed Chunks"]
+    C --> D["Chroma Store"]
+    E["Driver Question"] --> F["Retrieve Context"]
+    D --> F
+    F --> G["Prompt + Chat Model"]
+    G --> H["Grounded Answer"]
 ```
 
 This diagram shows the full RAG loop: the car manual is transformed into searchable vector embeddings, and each user question is answered using the most relevant retrieved chunks rather than model memory alone.
