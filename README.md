@@ -1,6 +1,6 @@
 # Projects
 
-- [Cars Review LLM Analysis POC](../../../portfolio/tree/main/car_reviews_llm/cars_review_analysis_llm.ipynb)
+- [Cars Review LLM Analysis POC](../../../portfolio/tree/main/car_reviews_llm)
   Hugging Face | LLM Analysis
 - [Automotive Warning Assistant with RAG](../../../portfolio/tree/main/rag_for_tech_doc)
   LangChain | Chroma | OpenAI-compatible API | LM Studio | RAG
