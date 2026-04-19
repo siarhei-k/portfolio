@@ -18,5 +18,5 @@
   API | System Analysis
 - [Deal or No Deal BPMN Game Flow](../../../portfolio/tree/main/deal_nodeal/)
   BPMN | Process Modeling
-- [Yandex Afisha User Loyalty Analysis](../../../portfolio/tree/main/afisha/afisha_v3.ipynb)
-  Python | pandas | Retention Analysis | RU language
+- [Yandex Afisha User Loyalty Analysis](../../../portfolio/tree/main/afisha/)
+  Python | pandas | Retention Analysis | **RU language**
