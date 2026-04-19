@@ -45,7 +45,3 @@ flowchart LR
 
 - [cars_review_analysis_llm.ipynb](cars_review_analysis_llm.ipynb): main notebook with the end-to-end LLM analysis workflow.
 - [car_reviews_llm.jpg](car_reviews_llm.jpg): project cover image used in the notebook and README.
-
-## Portfolio Value
-
-This project is designed as a compact portfolio example of applied LLM analysis. It shows how several production-relevant NLP capabilities can be composed into one workflow for customer feedback analysis, multilingual support, and fast business insight generation.

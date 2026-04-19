@@ -64,13 +64,6 @@ The notebook is currently configured for:
 
 If you use different models in LM Studio, update the model names in the notebook before running it.
 
-## Why This Works Well As a Portfolio Project
-
-- It demonstrates practical LLM application development, not just prompt writing.
-- It shows understanding of retrieval, chunking, embeddings, and grounded generation.
-- It uses local model serving, which is a nice touch for privacy-conscious or edge-style applications.
-- It is easy to explain in an interview because the pipeline is small, clear, and end to end.
-
 ## Possible Improvements
 
 - Persist the vector store to disk.
